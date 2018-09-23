@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ACE719B1B6CADA2003FBF3C /* SaplingTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71991B6CADA2003FBF3C /* SaplingTableCell.m */; };
+		5ACE719C1B6CADA2003FBF3C /* SaplingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE719A1B6CADA2003FBF3C /* SaplingTableCell.xib */; };
+		5ACE71A71B6D2EF9003FBF3C /* SaplingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE719F1B6D2EF9003FBF3C /* SaplingDetailViewController.m */; };
+		5ACE71A81B6D2EF9003FBF3C /* CommentTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71A11B6D2EF9003FBF3C /* CommentTableDataSource.m */; };
+		5ACE71A91B6D2EF9003FBF3C /* CommentTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71A31B6D2EF9003FBF3C /* CommentTableDelegate.m */; };
+		5ACE71AA1B6D2EF9003FBF3C /* CommentTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71A51B6D2EF9003FBF3C /* CommentTableCell.m */; };
+		5ACE71AB1B6D2EF9003FBF3C /* CommentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE71A61B6D2EF9003FBF3C /* CommentTableCell.xib */; };
+		5ACE71AF1B6D306B003FBF3C /* SaplingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE71AE1B6D306B003FBF3C /* SaplingViewController.m */; };
+		5AD850481B7735C20069CF42 /* ContextMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD850471B7735C20069CF42 /* ContextMenuTableViewController.m */; };
+		5AD8504A1B7735FA0069CF42 /* MenuTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD850491B7735FA0069CF42 /* MenuTableCell.xib */; };
+		5AD850501B7737540069CF42 /* MenuTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8504F1B7737540069CF42 /* MenuTableCell.m */; };
+		5AD850531B7739BB0069CF42 /* MenuNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD850521B7739BB0069CF42 /* MenuNavigationBar.m */; };
+		5ADABBA71B726D1B00D4149D /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADABBA61B726D1B00D4149D /* ImageViewController.m */; };
+		5AE234811B744CB100FAAC23 /* SelfTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE234801B744CB100FAAC23 /* SelfTableCell.xib */; };
+		5AE234841B744CCF00FAAC23 /* SelfTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE234831B744CCF00FAAC23 /* SelfTableCell.m */; };
+		5AE234881B7676F000FAAC23 /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE234871B7676F000FAAC23 /* DescriptionViewController.m */; };
+		5AE2501D1B6E0C8300B57C9C /* InvitationCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2501C1B6E0C8300B57C9C /* InvitationCodeViewController.m */; };
+		5AE36C441B6B0E860026AE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE36C431B6B0E860026AE75 /* Foundation.framework */; };
+		5AE36C461B6B0E860026AE75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE36C451B6B0E860026AE75 /* CoreGraphics.framework */; };
+		5AE36C481B6B0E860026AE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE36C471B6B0E860026AE75 /* UIKit.framework */; };
+		5AE36C4E1B6B0E860026AE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AE36C4C1B6B0E860026AE75 /* InfoPlist.strings */; };
+		5AE36C501B6B0E860026AE75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C4F1B6B0E860026AE75 /* main.m */; };
+		5AE36C541B6B0E860026AE75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C531B6B0E860026AE75 /* AppDelegate.m */; };
+		5AE36C571B6B0E860026AE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE36C551B6B0E860026AE75 /* Main.storyboard */; };
+		5AE36C5A1B6B0E870026AE75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C591B6B0E870026AE75 /* ViewController.m */; };
+		5AE36C5C1B6B0E870026AE75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE36C5B1B6B0E870026AE75 /* Images.xcassets */; };
+		5AE36C631B6B0E870026AE75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE36C621B6B0E870026AE75 /* XCTest.framework */; };
+		5AE36C641B6B0E870026AE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE36C431B6B0E860026AE75 /* Foundation.framework */; };
+		5AE36C651B6B0E870026AE75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE36C471B6B0E860026AE75 /* UIKit.framework */; };
+		5AE36C6D1B6B0E870026AE75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AE36C6B1B6B0E870026AE75 /* InfoPlist.strings */; };
+		5AE36C6F1B6B0E870026AE75 /* MOPO_Forum_CV1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C6E1B6B0E870026AE75 /* MOPO_Forum_CV1_0Tests.m */; };
+		5AE36C801B6B106B0026AE75 /* SQLiteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C7F1B6B106B0026AE75 /* SQLiteDatabase.m */; };
+		5AE36C831B6B12580026AE75 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C821B6B12580026AE75 /* LogInViewController.m */; };
+		5AE36C861B6B125F0026AE75 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C851B6B125F0026AE75 /* SignUpViewController.m */; };
+		5AE36C881B6B13730026AE75 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE36C871B6B13730026AE75 /* libsqlite3.dylib */; };
+		5AE36C901B6B4A160026AE75 /* VolunteerHomepageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C8F1B6B4A160026AE75 /* VolunteerHomepageTableViewController.m */; };
+		5AE36C941B6B4A430026AE75 /* PublicHomepageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE36C931B6B4A430026AE75 /* PublicHomepageTableViewController.m */; };
+		5AE529EE1C05B8F800C85C38 /* NavigationBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE529ED1C05B8F800C85C38 /* NavigationBarDrawer.m */; };
+		5AEA08B81B734F0A009CB463 /* SelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA08B71B734F0A009CB463 /* SelfViewController.m */; };
+		5AEA08BC1B736D52009CB463 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEA08BB1B736D52009CB463 /* CommentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE36C661B6B0E870026AE75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE36C381B6B0E860026AE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE36C3F1B6B0E860026AE75;
+			remoteInfo = "MOPO Forum CV1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ACE71981B6CADA2003FBF3C /* SaplingTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaplingTableCell.h; sourceTree = "<group>"; };
+		5ACE71991B6CADA2003FBF3C /* SaplingTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaplingTableCell.m; sourceTree = "<group>"; };
+		5ACE719A1B6CADA2003FBF3C /* SaplingTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaplingTableCell.xib; sourceTree = "<group>"; };
+		5ACE719E1B6D2EF9003FBF3C /* SaplingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaplingDetailViewController.h; sourceTree = "<group>"; };
+		5ACE719F1B6D2EF9003FBF3C /* SaplingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaplingDetailViewController.m; sourceTree = "<group>"; };
+		5ACE71A01B6D2EF9003FBF3C /* CommentTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableDataSource.h; sourceTree = "<group>"; };
+		5ACE71A11B6D2EF9003FBF3C /* CommentTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableDataSource.m; sourceTree = "<group>"; };
+		5ACE71A21B6D2EF9003FBF3C /* CommentTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableDelegate.h; sourceTree = "<group>"; };
+		5ACE71A31B6D2EF9003FBF3C /* CommentTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableDelegate.m; sourceTree = "<group>"; };
+		5ACE71A41B6D2EF9003FBF3C /* CommentTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableCell.h; sourceTree = "<group>"; };
+		5ACE71A51B6D2EF9003FBF3C /* CommentTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableCell.m; sourceTree = "<group>"; };
+		5ACE71A61B6D2EF9003FBF3C /* CommentTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentTableCell.xib; sourceTree = "<group>"; };
+		5ACE71AD1B6D306B003FBF3C /* SaplingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaplingViewController.h; sourceTree = "<group>"; };
+		5ACE71AE1B6D306B003FBF3C /* SaplingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaplingViewController.m; sourceTree = "<group>"; };
+		5AD850461B7735C20069CF42 /* ContextMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextMenuTableViewController.h; sourceTree = "<group>"; };
+		5AD850471B7735C20069CF42 /* ContextMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextMenuTableViewController.m; sourceTree = "<group>"; };
+		5AD850491B7735FA0069CF42 /* MenuTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableCell.xib; sourceTree = "<group>"; };
+		5AD8504E1B7737540069CF42 /* MenuTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableCell.h; sourceTree = "<group>"; };
+		5AD8504F1B7737540069CF42 /* MenuTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableCell.m; sourceTree = "<group>"; };
+		5AD850511B7739BB0069CF42 /* MenuNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuNavigationBar.h; sourceTree = "<group>"; };
+		5AD850521B7739BB0069CF42 /* MenuNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuNavigationBar.m; sourceTree = "<group>"; };
+		5ADABBA51B726D1B00D4149D /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		5ADABBA61B726D1B00D4149D /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		5AE234801B744CB100FAAC23 /* SelfTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelfTableCell.xib; sourceTree = "<group>"; };
+		5AE234821B744CCF00FAAC23 /* SelfTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfTableCell.h; sourceTree = "<group>"; };
+		5AE234831B744CCF00FAAC23 /* SelfTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfTableCell.m; sourceTree = "<group>"; };
+		5AE234861B7676F000FAAC23 /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		5AE234871B7676F000FAAC23 /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		5AE2501B1B6E0C8300B57C9C /* InvitationCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvitationCodeViewController.h; sourceTree = "<group>"; };
+		5AE2501C1B6E0C8300B57C9C /* InvitationCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvitationCodeViewController.m; sourceTree = "<group>"; };
+		5AE36C401B6B0E860026AE75 /* MOPO Forum CV1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOPO Forum CV1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE36C431B6B0E860026AE75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AE36C451B6B0E860026AE75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AE36C471B6B0E860026AE75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AE36C4B1B6B0E860026AE75 /* MOPO Forum CV1.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOPO Forum CV1.0-Info.plist"; sourceTree = "<group>"; };
+		5AE36C4D1B6B0E860026AE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AE36C4F1B6B0E860026AE75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AE36C511B6B0E860026AE75 /* MOPO Forum CV1.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOPO Forum CV1.0-Prefix.pch"; sourceTree = "<group>"; };
+		5AE36C521B6B0E860026AE75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AE36C531B6B0E860026AE75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AE36C561B6B0E860026AE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AE36C581B6B0E860026AE75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AE36C591B6B0E870026AE75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AE36C5B1B6B0E870026AE75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AE36C611B6B0E870026AE75 /* MOPO Forum CV1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOPO Forum CV1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE36C621B6B0E870026AE75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AE36C6A1B6B0E870026AE75 /* MOPO Forum CV1.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOPO Forum CV1.0Tests-Info.plist"; sourceTree = "<group>"; };
+		5AE36C6C1B6B0E870026AE75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AE36C6E1B6B0E870026AE75 /* MOPO_Forum_CV1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOPO_Forum_CV1_0Tests.m; sourceTree = "<group>"; };
+		5AE36C7E1B6B106B0026AE75 /* SQLiteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteDatabase.h; sourceTree = "<group>"; };
+		5AE36C7F1B6B106B0026AE75 /* SQLiteDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteDatabase.m; sourceTree = "<group>"; };
+		5AE36C811B6B12580026AE75 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		5AE36C821B6B12580026AE75 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		5AE36C841B6B125F0026AE75 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		5AE36C851B6B125F0026AE75 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		5AE36C871B6B13730026AE75 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5AE36C8A1B6B475D0026AE75 /* MasterHomepageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterHomepageTableViewController.h; sourceTree = "<group>"; };
+		5AE36C8B1B6B475D0026AE75 /* MasterHomepageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterHomepageTableViewController.m; sourceTree = "<group>"; };
+		5AE36C8E1B6B4A160026AE75 /* VolunteerHomepageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteerHomepageTableViewController.h; sourceTree = "<group>"; };
+		5AE36C8F1B6B4A160026AE75 /* VolunteerHomepageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteerHomepageTableViewController.m; sourceTree = "<group>"; };
+		5AE36C921B6B4A430026AE75 /* PublicHomepageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicHomepageTableViewController.h; sourceTree = "<group>"; };
+		5AE36C931B6B4A430026AE75 /* PublicHomepageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicHomepageTableViewController.m; sourceTree = "<group>"; };
+		5AE529EC1C05B8F800C85C38 /* NavigationBarDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarDrawer.h; sourceTree = "<group>"; };
+		5AE529ED1C05B8F800C85C38 /* NavigationBarDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarDrawer.m; sourceTree = "<group>"; };
+		5AEA08B61B734F0A009CB463 /* SelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfViewController.h; sourceTree = "<group>"; };
+		5AEA08B71B734F0A009CB463 /* SelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfViewController.m; sourceTree = "<group>"; };
+		5AEA08BA1B736D52009CB463 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		5AEA08BB1B736D52009CB463 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE36C3D1B6B0E860026AE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE36C881B6B13730026AE75 /* libsqlite3.dylib in Frameworks */,
+				5AE36C461B6B0E860026AE75 /* CoreGraphics.framework in Frameworks */,
+				5AE36C481B6B0E860026AE75 /* UIKit.framework in Frameworks */,
+				5AE36C441B6B0E860026AE75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE36C5E1B6B0E870026AE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE36C631B6B0E870026AE75 /* XCTest.framework in Frameworks */,
+				5AE36C651B6B0E870026AE75 /* UIKit.framework in Frameworks */,
+				5AE36C641B6B0E870026AE75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACE719D1B6D2E91003FBF3C /* SaplingDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE719E1B6D2EF9003FBF3C /* SaplingDetailViewController.h */,
+				5ACE719F1B6D2EF9003FBF3C /* SaplingDetailViewController.m */,
+				5ACE71A01B6D2EF9003FBF3C /* CommentTableDataSource.h */,
+				5ACE71A11B6D2EF9003FBF3C /* CommentTableDataSource.m */,
+				5ACE71A21B6D2EF9003FBF3C /* CommentTableDelegate.h */,
+				5ACE71A31B6D2EF9003FBF3C /* CommentTableDelegate.m */,
+				5ACE71A41B6D2EF9003FBF3C /* CommentTableCell.h */,
+				5ACE71A51B6D2EF9003FBF3C /* CommentTableCell.m */,
+				5ACE71A61B6D2EF9003FBF3C /* CommentTableCell.xib */,
+				5AEA08B91B736D3C009CB463 /* CommentViewController */,
+			);
+			name = SaplingDetailViewController;
+			sourceTree = "<group>";
+		};
+		5ACE71AC1B6D3051003FBF3C /* SaplingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5ACE71AD1B6D306B003FBF3C /* SaplingViewController.h */,
+				5ACE71AE1B6D306B003FBF3C /* SaplingViewController.m */,
+				5ADABBA81B726D2500D4149D /* ImageViewController */,
+			);
+			name = SaplingViewController;
+			sourceTree = "<group>";
+		};
+		5AD850451B7735410069CF42 /* ContextMenuTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AD850461B7735C20069CF42 /* ContextMenuTableViewController.h */,
+				5AD850471B7735C20069CF42 /* ContextMenuTableViewController.m */,
+				5AD850511B7739BB0069CF42 /* MenuNavigationBar.h */,
+				5AD850521B7739BB0069CF42 /* MenuNavigationBar.m */,
+				5AD8504E1B7737540069CF42 /* MenuTableCell.h */,
+				5AD8504F1B7737540069CF42 /* MenuTableCell.m */,
+				5AD850491B7735FA0069CF42 /* MenuTableCell.xib */,
+				5AE2501A1B6E0C6100B57C9C /* InvitationCodeViewController */,
+			);
+			name = ContextMenuTableViewController;
+			sourceTree = "<group>";
+		};
+		5ADABBA81B726D2500D4149D /* ImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5ADABBA51B726D1B00D4149D /* ImageViewController.h */,
+				5ADABBA61B726D1B00D4149D /* ImageViewController.m */,
+			);
+			name = ImageViewController;
+			sourceTree = "<group>";
+		};
+		5AE234851B7676C700FAAC23 /* DescriptionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE234861B7676F000FAAC23 /* DescriptionViewController.h */,
+				5AE234871B7676F000FAAC23 /* DescriptionViewController.m */,
+			);
+			name = DescriptionViewController;
+			sourceTree = "<group>";
+		};
+		5AE2501A1B6E0C6100B57C9C /* InvitationCodeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE2501B1B6E0C8300B57C9C /* InvitationCodeViewController.h */,
+				5AE2501C1B6E0C8300B57C9C /* InvitationCodeViewController.m */,
+			);
+			name = InvitationCodeViewController;
+			sourceTree = "<group>";
+		};
+		5AE36C371B6B0E860026AE75 = {
+			isa = PBXGroup;
+			children = (
+				5AE36C491B6B0E860026AE75 /* MOPO Forum CV1.0 */,
+				5AE36C681B6B0E870026AE75 /* MOPO Forum CV1.0Tests */,
+				5AE36C421B6B0E860026AE75 /* Frameworks */,
+				5AE36C411B6B0E860026AE75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE36C411B6B0E860026AE75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C401B6B0E860026AE75 /* MOPO Forum CV1.0.app */,
+				5AE36C611B6B0E870026AE75 /* MOPO Forum CV1.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE36C421B6B0E860026AE75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C871B6B13730026AE75 /* libsqlite3.dylib */,
+				5AE36C431B6B0E860026AE75 /* Foundation.framework */,
+				5AE36C451B6B0E860026AE75 /* CoreGraphics.framework */,
+				5AE36C471B6B0E860026AE75 /* UIKit.framework */,
+				5AE36C621B6B0E870026AE75 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AE36C491B6B0E860026AE75 /* MOPO Forum CV1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C781B6B0E9D0026AE75 /* UserInterface */,
+				5AE36C7A1B6B0FDB0026AE75 /* ViewControllers */,
+				5AE36C791B6B0FD20026AE75 /* SQLiteDatabase */,
+				5AE36C4A1B6B0E860026AE75 /* Supporting Files */,
+				5AE36C5B1B6B0E870026AE75 /* Images.xcassets */,
+			);
+			path = "MOPO Forum CV1.0";
+			sourceTree = "<group>";
+		};
+		5AE36C4A1B6B0E860026AE75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C521B6B0E860026AE75 /* AppDelegate.h */,
+				5AE36C531B6B0E860026AE75 /* AppDelegate.m */,
+				5AE36C4B1B6B0E860026AE75 /* MOPO Forum CV1.0-Info.plist */,
+				5AE36C4C1B6B0E860026AE75 /* InfoPlist.strings */,
+				5AE36C4F1B6B0E860026AE75 /* main.m */,
+				5AE36C511B6B0E860026AE75 /* MOPO Forum CV1.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE36C681B6B0E870026AE75 /* MOPO Forum CV1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C6E1B6B0E870026AE75 /* MOPO_Forum_CV1_0Tests.m */,
+				5AE36C691B6B0E870026AE75 /* Supporting Files */,
+			);
+			path = "MOPO Forum CV1.0Tests";
+			sourceTree = "<group>";
+		};
+		5AE36C691B6B0E870026AE75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C6A1B6B0E870026AE75 /* MOPO Forum CV1.0Tests-Info.plist */,
+				5AE36C6B1B6B0E870026AE75 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE36C781B6B0E9D0026AE75 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C551B6B0E860026AE75 /* Main.storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		5AE36C791B6B0FD20026AE75 /* SQLiteDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C7E1B6B106B0026AE75 /* SQLiteDatabase.h */,
+				5AE36C7F1B6B106B0026AE75 /* SQLiteDatabase.m */,
+			);
+			name = SQLiteDatabase;
+			sourceTree = "<group>";
+		};
+		5AE36C7A1B6B0FDB0026AE75 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C7B1B6B0FE40026AE75 /* StartPageViewController */,
+				5AE36C891B6B47280026AE75 /* MasterHomepageTableViewController */,
+				5AE36C8D1B6B49F30026AE75 /* VolunteerHomepageTableViewController */,
+				5AE36C911B6B4A200026AE75 /* PublicHomepageTableViewController */,
+				5AEA08B51B734EE4009CB463 /* SelfViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5AE36C7B1B6B0FE40026AE75 /* StartPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C581B6B0E860026AE75 /* ViewController.h */,
+				5AE36C591B6B0E870026AE75 /* ViewController.m */,
+				5AE36C7C1B6B10040026AE75 /* LogInViewController */,
+				5AE36C7D1B6B10110026AE75 /* SignUpViewController */,
+			);
+			name = StartPageViewController;
+			sourceTree = "<group>";
+		};
+		5AE36C7C1B6B10040026AE75 /* LogInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C811B6B12580026AE75 /* LogInViewController.h */,
+				5AE36C821B6B12580026AE75 /* LogInViewController.m */,
+			);
+			name = LogInViewController;
+			sourceTree = "<group>";
+		};
+		5AE36C7D1B6B10110026AE75 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C841B6B125F0026AE75 /* SignUpViewController.h */,
+				5AE36C851B6B125F0026AE75 /* SignUpViewController.m */,
+			);
+			name = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		5AE36C891B6B47280026AE75 /* MasterHomepageTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C8A1B6B475D0026AE75 /* MasterHomepageTableViewController.h */,
+				5AE36C8B1B6B475D0026AE75 /* MasterHomepageTableViewController.m */,
+				5AE529EC1C05B8F800C85C38 /* NavigationBarDrawer.h */,
+				5AE529ED1C05B8F800C85C38 /* NavigationBarDrawer.m */,
+				5AD850451B7735410069CF42 /* ContextMenuTableViewController */,
+			);
+			name = MasterHomepageTableViewController;
+			sourceTree = "<group>";
+		};
+		5AE36C8D1B6B49F30026AE75 /* VolunteerHomepageTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C8E1B6B4A160026AE75 /* VolunteerHomepageTableViewController.h */,
+				5AE36C8F1B6B4A160026AE75 /* VolunteerHomepageTableViewController.m */,
+				5ACE71981B6CADA2003FBF3C /* SaplingTableCell.h */,
+				5ACE71991B6CADA2003FBF3C /* SaplingTableCell.m */,
+				5ACE719A1B6CADA2003FBF3C /* SaplingTableCell.xib */,
+				5ACE71AC1B6D3051003FBF3C /* SaplingViewController */,
+				5ACE719D1B6D2E91003FBF3C /* SaplingDetailViewController */,
+			);
+			name = VolunteerHomepageTableViewController;
+			sourceTree = "<group>";
+		};
+		5AE36C911B6B4A200026AE75 /* PublicHomepageTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AE36C921B6B4A430026AE75 /* PublicHomepageTableViewController.h */,
+				5AE36C931B6B4A430026AE75 /* PublicHomepageTableViewController.m */,
+			);
+			name = PublicHomepageTableViewController;
+			sourceTree = "<group>";
+		};
+		5AEA08B51B734EE4009CB463 /* SelfViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AEA08B61B734F0A009CB463 /* SelfViewController.h */,
+				5AEA08B71B734F0A009CB463 /* SelfViewController.m */,
+				5AE234821B744CCF00FAAC23 /* SelfTableCell.h */,
+				5AE234831B744CCF00FAAC23 /* SelfTableCell.m */,
+				5AE234801B744CB100FAAC23 /* SelfTableCell.xib */,
+				5AE234851B7676C700FAAC23 /* DescriptionViewController */,
+			);
+			name = SelfViewController;
+			sourceTree = "<group>";
+		};
+		5AEA08B91B736D3C009CB463 /* CommentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AEA08BA1B736D52009CB463 /* CommentViewController.h */,
+				5AEA08BB1B736D52009CB463 /* CommentViewController.m */,
+			);
+			name = CommentViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE36C3F1B6B0E860026AE75 /* MOPO Forum CV1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE36C721B6B0E870026AE75 /* Build configuration list for PBXNativeTarget "MOPO Forum CV1.0" */;
+			buildPhases = (
+				5AE36C3C1B6B0E860026AE75 /* Sources */,
+				5AE36C3D1B6B0E860026AE75 /* Frameworks */,
+				5AE36C3E1B6B0E860026AE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOPO Forum CV1.0";
+			productName = "MOPO Forum CV1.0";
+			productReference = 5AE36C401B6B0E860026AE75 /* MOPO Forum CV1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE36C601B6B0E870026AE75 /* MOPO Forum CV1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE36C751B6B0E870026AE75 /* Build configuration list for PBXNativeTarget "MOPO Forum CV1.0Tests" */;
+			buildPhases = (
+				5AE36C5D1B6B0E870026AE75 /* Sources */,
+				5AE36C5E1B6B0E870026AE75 /* Frameworks */,
+				5AE36C5F1B6B0E870026AE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE36C671B6B0E870026AE75 /* PBXTargetDependency */,
+			);
+			name = "MOPO Forum CV1.0Tests";
+			productName = "MOPO Forum CV1.0Tests";
+			productReference = 5AE36C611B6B0E870026AE75 /* MOPO Forum CV1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE36C381B6B0E860026AE75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MOPO;
+				TargetAttributes = {
+					5AE36C3F1B6B0E860026AE75 = {
+						DevelopmentTeam = SXZ2NM4Y9U;
+					};
+					5AE36C601B6B0E870026AE75 = {
+						TestTargetID = 5AE36C3F1B6B0E860026AE75;
+					};
+				};
+			};
+			buildConfigurationList = 5AE36C3B1B6B0E860026AE75 /* Build configuration list for PBXProject "MOPO Forum CV1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE36C371B6B0E860026AE75;
+			productRefGroup = 5AE36C411B6B0E860026AE75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE36C3F1B6B0E860026AE75 /* MOPO Forum CV1.0 */,
+				5AE36C601B6B0E870026AE75 /* MOPO Forum CV1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE36C3E1B6B0E860026AE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE36C5C1B6B0E870026AE75 /* Images.xcassets in Resources */,
+				5ACE71AB1B6D2EF9003FBF3C /* CommentTableCell.xib in Resources */,
+				5AE234811B744CB100FAAC23 /* SelfTableCell.xib in Resources */,
+				5AE36C4E1B6B0E860026AE75 /* InfoPlist.strings in Resources */,
+				5AE36C571B6B0E860026AE75 /* Main.storyboard in Resources */,
+				5AD8504A1B7735FA0069CF42 /* MenuTableCell.xib in Resources */,
+				5ACE719C1B6CADA2003FBF3C /* SaplingTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE36C5F1B6B0E870026AE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE36C6D1B6B0E870026AE75 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE36C3C1B6B0E860026AE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE36C5A1B6B0E870026AE75 /* ViewController.m in Sources */,
+				5ACE71A81B6D2EF9003FBF3C /* CommentTableDataSource.m in Sources */,
+				5ACE71AA1B6D2EF9003FBF3C /* CommentTableCell.m in Sources */,
+				5ACE71A91B6D2EF9003FBF3C /* CommentTableDelegate.m in Sources */,
+				5AE36C541B6B0E860026AE75 /* AppDelegate.m in Sources */,
+				5ACE71AF1B6D306B003FBF3C /* SaplingViewController.m in Sources */,
+				5AE36C901B6B4A160026AE75 /* VolunteerHomepageTableViewController.m in Sources */,
+				5ACE719B1B6CADA2003FBF3C /* SaplingTableCell.m in Sources */,
+				5AE234841B744CCF00FAAC23 /* SelfTableCell.m in Sources */,
+				5AEA08B81B734F0A009CB463 /* SelfViewController.m in Sources */,
+				5AE2501D1B6E0C8300B57C9C /* InvitationCodeViewController.m in Sources */,
+				5AE234881B7676F000FAAC23 /* DescriptionViewController.m in Sources */,
+				5AD850481B7735C20069CF42 /* ContextMenuTableViewController.m in Sources */,
+				5AE36C861B6B125F0026AE75 /* SignUpViewController.m in Sources */,
+				5ADABBA71B726D1B00D4149D /* ImageViewController.m in Sources */,
+				5AEA08BC1B736D52009CB463 /* CommentViewController.m in Sources */,
+				5AE529EE1C05B8F800C85C38 /* NavigationBarDrawer.m in Sources */,
+				5AD850531B7739BB0069CF42 /* MenuNavigationBar.m in Sources */,
+				5AE36C831B6B12580026AE75 /* LogInViewController.m in Sources */,
+				5ACE71A71B6D2EF9003FBF3C /* SaplingDetailViewController.m in Sources */,
+				5AE36C941B6B4A430026AE75 /* PublicHomepageTableViewController.m in Sources */,
+				5AD850501B7737540069CF42 /* MenuTableCell.m in Sources */,
+				5AE36C801B6B106B0026AE75 /* SQLiteDatabase.m in Sources */,
+				5AE36C501B6B0E860026AE75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE36C5D1B6B0E870026AE75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE36C6F1B6B0E870026AE75 /* MOPO_Forum_CV1_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE36C671B6B0E870026AE75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE36C3F1B6B0E860026AE75 /* MOPO Forum CV1.0 */;
+			targetProxy = 5AE36C661B6B0E870026AE75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE36C4C1B6B0E860026AE75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE36C4D1B6B0E860026AE75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AE36C551B6B0E860026AE75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE36C561B6B0E860026AE75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AE36C6B1B6B0E870026AE75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE36C6C1B6B0E870026AE75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE36C701B6B0E870026AE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AE36C711B6B0E870026AE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE36C731B6B0E870026AE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum CV1.0/MOPO Forum CV1.0-Prefix.pch";
+				INFOPLIST_FILE = "MOPO Forum CV1.0/MOPO Forum CV1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AE36C741B6B0E870026AE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum CV1.0/MOPO Forum CV1.0-Prefix.pch";
+				INFOPLIST_FILE = "MOPO Forum CV1.0/MOPO Forum CV1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AE36C761B6B0E870026AE75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOPO Forum CV1.0.app/MOPO Forum CV1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum CV1.0/MOPO Forum CV1.0-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MOPO Forum CV1.0Tests/MOPO Forum CV1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5AE36C771B6B0E870026AE75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOPO Forum CV1.0.app/MOPO Forum CV1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum CV1.0/MOPO Forum CV1.0-Prefix.pch";
+				INFOPLIST_FILE = "MOPO Forum CV1.0Tests/MOPO Forum CV1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE36C3B1B6B0E860026AE75 /* Build configuration list for PBXProject "MOPO Forum CV1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE36C701B6B0E870026AE75 /* Debug */,
+				5AE36C711B6B0E870026AE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE36C721B6B0E870026AE75 /* Build configuration list for PBXNativeTarget "MOPO Forum CV1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE36C731B6B0E870026AE75 /* Debug */,
+				5AE36C741B6B0E870026AE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE36C751B6B0E870026AE75 /* Build configuration list for PBXNativeTarget "MOPO Forum CV1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE36C761B6B0E870026AE75 /* Debug */,
+				5AE36C771B6B0E870026AE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE36C381B6B0E860026AE75 /* Project object */;
+}

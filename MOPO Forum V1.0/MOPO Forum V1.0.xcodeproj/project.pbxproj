@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD039971B69C6D100826155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD039961B69C6D100826155 /* Foundation.framework */; };
+		5AD039991B69C6D100826155 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD039981B69C6D100826155 /* CoreGraphics.framework */; };
+		5AD0399B1B69C6D100826155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD0399A1B69C6D100826155 /* UIKit.framework */; };
+		5AD039A11B69C6D100826155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AD0399F1B69C6D100826155 /* InfoPlist.strings */; };
+		5AD039A31B69C6D100826155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD039A21B69C6D100826155 /* main.m */; };
+		5AD039A71B69C6D100826155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD039A61B69C6D100826155 /* AppDelegate.m */; };
+		5AD039AA1B69C6D100826155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD039A81B69C6D100826155 /* Main.storyboard */; };
+		5AD039AF1B69C6D100826155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD039AE1B69C6D100826155 /* Images.xcassets */; };
+		5AD039B61B69C6D100826155 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD039B51B69C6D100826155 /* XCTest.framework */; };
+		5AD039B71B69C6D100826155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD039961B69C6D100826155 /* Foundation.framework */; };
+		5AD039B81B69C6D100826155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD0399A1B69C6D100826155 /* UIKit.framework */; };
+		5AD039C01B69C6D100826155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AD039BE1B69C6D100826155 /* InfoPlist.strings */; };
+		5AD039C21B69C6D100826155 /* MOPO_Forum_V1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD039C11B69C6D100826155 /* MOPO_Forum_V1_0Tests.m */; };
+		5AD039D11B69C7C600826155 /* SQLiteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD039D01B69C7C600826155 /* SQLiteDatabase.m */; };
+		5AD039D31B69C82B00826155 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD039D21B69C82B00826155 /* libsqlite3.dylib */; };
+		5AD039D61B69C84600826155 /* StartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD039D51B69C84600826155 /* StartPageViewController.m */; };
+		5AD039DF1B69CA8800826155 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD039DE1B69CA8800826155 /* LogInViewController.m */; };
+		5AD039E21B69CA9B00826155 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD039E11B69CA9B00826155 /* SignUpViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD039B91B69C6D100826155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD0398B1B69C6D100826155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD039921B69C6D100826155;
+			remoteInfo = "MOPO Forum V1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD039931B69C6D100826155 /* MOPO Forum V1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOPO Forum V1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD039961B69C6D100826155 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AD039981B69C6D100826155 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AD0399A1B69C6D100826155 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AD0399E1B69C6D100826155 /* MOPO Forum V1.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOPO Forum V1.0-Info.plist"; sourceTree = "<group>"; };
+		5AD039A01B69C6D100826155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AD039A21B69C6D100826155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AD039A41B69C6D100826155 /* MOPO Forum V1.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MOPO Forum V1.0-Prefix.pch"; sourceTree = "<group>"; };
+		5AD039A51B69C6D100826155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AD039A61B69C6D100826155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AD039A91B69C6D100826155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD039AE1B69C6D100826155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AD039B41B69C6D100826155 /* MOPO Forum V1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MOPO Forum V1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD039B51B69C6D100826155 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5AD039BD1B69C6D100826155 /* MOPO Forum V1.0Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MOPO Forum V1.0Tests-Info.plist"; sourceTree = "<group>"; };
+		5AD039BF1B69C6D100826155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AD039C11B69C6D100826155 /* MOPO_Forum_V1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOPO_Forum_V1_0Tests.m; sourceTree = "<group>"; };
+		5AD039CF1B69C7C600826155 /* SQLiteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteDatabase.h; sourceTree = "<group>"; };
+		5AD039D01B69C7C600826155 /* SQLiteDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteDatabase.m; sourceTree = "<group>"; };
+		5AD039D21B69C82B00826155 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5AD039D41B69C84600826155 /* StartPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPageViewController.h; sourceTree = "<group>"; };
+		5AD039D51B69C84600826155 /* StartPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPageViewController.m; sourceTree = "<group>"; };
+		5AD039DD1B69CA8800826155 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		5AD039DE1B69CA8800826155 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		5AD039E01B69CA9B00826155 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		5AD039E11B69CA9B00826155 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD039901B69C6D100826155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD039D31B69C82B00826155 /* libsqlite3.dylib in Frameworks */,
+				5AD039991B69C6D100826155 /* CoreGraphics.framework in Frameworks */,
+				5AD0399B1B69C6D100826155 /* UIKit.framework in Frameworks */,
+				5AD039971B69C6D100826155 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD039B11B69C6D100826155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD039B61B69C6D100826155 /* XCTest.framework in Frameworks */,
+				5AD039B81B69C6D100826155 /* UIKit.framework in Frameworks */,
+				5AD039B71B69C6D100826155 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD0398A1B69C6D100826155 = {
+			isa = PBXGroup;
+			children = (
+				5AD0399C1B69C6D100826155 /* MOPO Forum V1.0 */,
+				5AD039BB1B69C6D100826155 /* MOPO Forum V1.0Tests */,
+				5AD039951B69C6D100826155 /* Frameworks */,
+				5AD039941B69C6D100826155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD039941B69C6D100826155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039931B69C6D100826155 /* MOPO Forum V1.0.app */,
+				5AD039B41B69C6D100826155 /* MOPO Forum V1.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD039951B69C6D100826155 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039D21B69C82B00826155 /* libsqlite3.dylib */,
+				5AD039961B69C6D100826155 /* Foundation.framework */,
+				5AD039981B69C6D100826155 /* CoreGraphics.framework */,
+				5AD0399A1B69C6D100826155 /* UIKit.framework */,
+				5AD039B51B69C6D100826155 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AD0399C1B69C6D100826155 /* MOPO Forum V1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039CB1B69C70C00826155 /* UserInterface */,
+				5AD039CC1B69C71400826155 /* ViewControllers */,
+				5AD039CE1B69C7A200826155 /* SQLiteDatabase */,
+				5AD0399D1B69C6D100826155 /* Supporting Files */,
+				5AD039AE1B69C6D100826155 /* Images.xcassets */,
+			);
+			path = "MOPO Forum V1.0";
+			sourceTree = "<group>";
+		};
+		5AD0399D1B69C6D100826155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039A51B69C6D100826155 /* AppDelegate.h */,
+				5AD039A61B69C6D100826155 /* AppDelegate.m */,
+				5AD0399E1B69C6D100826155 /* MOPO Forum V1.0-Info.plist */,
+				5AD0399F1B69C6D100826155 /* InfoPlist.strings */,
+				5AD039A21B69C6D100826155 /* main.m */,
+				5AD039A41B69C6D100826155 /* MOPO Forum V1.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD039BB1B69C6D100826155 /* MOPO Forum V1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039C11B69C6D100826155 /* MOPO_Forum_V1_0Tests.m */,
+				5AD039BC1B69C6D100826155 /* Supporting Files */,
+			);
+			path = "MOPO Forum V1.0Tests";
+			sourceTree = "<group>";
+		};
+		5AD039BC1B69C6D100826155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039BD1B69C6D100826155 /* MOPO Forum V1.0Tests-Info.plist */,
+				5AD039BE1B69C6D100826155 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD039CB1B69C70C00826155 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039A81B69C6D100826155 /* Main.storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		5AD039CC1B69C71400826155 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039CD1B69C79300826155 /* StartPageViewController */,
+				5AD039DB1B69CA5B00826155 /* LogInViewController */,
+				5AD039DC1B69CA6600826155 /* SignUpViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5AD039CD1B69C79300826155 /* StartPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039D41B69C84600826155 /* StartPageViewController.h */,
+				5AD039D51B69C84600826155 /* StartPageViewController.m */,
+			);
+			name = StartPageViewController;
+			sourceTree = "<group>";
+		};
+		5AD039CE1B69C7A200826155 /* SQLiteDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039CF1B69C7C600826155 /* SQLiteDatabase.h */,
+				5AD039D01B69C7C600826155 /* SQLiteDatabase.m */,
+			);
+			name = SQLiteDatabase;
+			sourceTree = "<group>";
+		};
+		5AD039DB1B69CA5B00826155 /* LogInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039DD1B69CA8800826155 /* LogInViewController.h */,
+				5AD039DE1B69CA8800826155 /* LogInViewController.m */,
+			);
+			name = LogInViewController;
+			sourceTree = "<group>";
+		};
+		5AD039DC1B69CA6600826155 /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5AD039E01B69CA9B00826155 /* SignUpViewController.h */,
+				5AD039E11B69CA9B00826155 /* SignUpViewController.m */,
+			);
+			name = SignUpViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD039921B69C6D100826155 /* MOPO Forum V1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD039C51B69C6D100826155 /* Build configuration list for PBXNativeTarget "MOPO Forum V1.0" */;
+			buildPhases = (
+				5AD0398F1B69C6D100826155 /* Sources */,
+				5AD039901B69C6D100826155 /* Frameworks */,
+				5AD039911B69C6D100826155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MOPO Forum V1.0";
+			productName = "MOPO Forum V1.0";
+			productReference = 5AD039931B69C6D100826155 /* MOPO Forum V1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AD039B31B69C6D100826155 /* MOPO Forum V1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD039C81B69C6D100826155 /* Build configuration list for PBXNativeTarget "MOPO Forum V1.0Tests" */;
+			buildPhases = (
+				5AD039B01B69C6D100826155 /* Sources */,
+				5AD039B11B69C6D100826155 /* Frameworks */,
+				5AD039B21B69C6D100826155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD039BA1B69C6D100826155 /* PBXTargetDependency */,
+			);
+			name = "MOPO Forum V1.0Tests";
+			productName = "MOPO Forum V1.0Tests";
+			productReference = 5AD039B41B69C6D100826155 /* MOPO Forum V1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD0398B1B69C6D100826155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MOPO;
+				TargetAttributes = {
+					5AD039B31B69C6D100826155 = {
+						TestTargetID = 5AD039921B69C6D100826155;
+					};
+				};
+			};
+			buildConfigurationList = 5AD0398E1B69C6D100826155 /* Build configuration list for PBXProject "MOPO Forum V1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD0398A1B69C6D100826155;
+			productRefGroup = 5AD039941B69C6D100826155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD039921B69C6D100826155 /* MOPO Forum V1.0 */,
+				5AD039B31B69C6D100826155 /* MOPO Forum V1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD039911B69C6D100826155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD039AF1B69C6D100826155 /* Images.xcassets in Resources */,
+				5AD039A11B69C6D100826155 /* InfoPlist.strings in Resources */,
+				5AD039AA1B69C6D100826155 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD039B21B69C6D100826155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD039C01B69C6D100826155 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD0398F1B69C6D100826155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD039D11B69C7C600826155 /* SQLiteDatabase.m in Sources */,
+				5AD039A71B69C6D100826155 /* AppDelegate.m in Sources */,
+				5AD039E21B69CA9B00826155 /* SignUpViewController.m in Sources */,
+				5AD039DF1B69CA8800826155 /* LogInViewController.m in Sources */,
+				5AD039D61B69C84600826155 /* StartPageViewController.m in Sources */,
+				5AD039A31B69C6D100826155 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD039B01B69C6D100826155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD039C21B69C6D100826155 /* MOPO_Forum_V1_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD039BA1B69C6D100826155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD039921B69C6D100826155 /* MOPO Forum V1.0 */;
+			targetProxy = 5AD039B91B69C6D100826155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AD0399F1B69C6D100826155 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD039A01B69C6D100826155 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AD039A81B69C6D100826155 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD039A91B69C6D100826155 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD039BE1B69C6D100826155 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD039BF1B69C6D100826155 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD039C31B69C6D100826155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AD039C41B69C6D100826155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD039C61B69C6D100826155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum V1.0/MOPO Forum V1.0-Prefix.pch";
+				INFOPLIST_FILE = "MOPO Forum V1.0/MOPO Forum V1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AD039C71B69C6D100826155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum V1.0/MOPO Forum V1.0-Prefix.pch";
+				INFOPLIST_FILE = "MOPO Forum V1.0/MOPO Forum V1.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5AD039C91B69C6D100826155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOPO Forum V1.0.app/MOPO Forum V1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum V1.0/MOPO Forum V1.0-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MOPO Forum V1.0Tests/MOPO Forum V1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5AD039CA1B69C6D100826155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MOPO Forum V1.0.app/MOPO Forum V1.0";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MOPO Forum V1.0/MOPO Forum V1.0-Prefix.pch";
+				INFOPLIST_FILE = "MOPO Forum V1.0Tests/MOPO Forum V1.0Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD0398E1B69C6D100826155 /* Build configuration list for PBXProject "MOPO Forum V1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD039C31B69C6D100826155 /* Debug */,
+				5AD039C41B69C6D100826155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD039C51B69C6D100826155 /* Build configuration list for PBXNativeTarget "MOPO Forum V1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD039C61B69C6D100826155 /* Debug */,
+				5AD039C71B69C6D100826155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD039C81B69C6D100826155 /* Build configuration list for PBXNativeTarget "MOPO Forum V1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD039C91B69C6D100826155 /* Debug */,
+				5AD039CA1B69C6D100826155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD0398B1B69C6D100826155 /* Project object */;
+}
